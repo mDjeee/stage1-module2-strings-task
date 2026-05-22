@@ -3,6 +3,8 @@ package com.epam.mjc;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class StringSplitter {
 
@@ -14,11 +16,20 @@ public class StringSplitter {
      * @return List of substrings
      */
     public List<String> splitByDelimiters(String source, Collection<String> delimiters) {
-
-        for (String delimiter : delimiters) {
-            source = source.replace(delimiter, " ");
+        if (source == null || source.isEmpty()) {
+            return List.of();
         }
 
-        return Arrays.asList(source.split(" "));
+        if (delimiters == null || delimiters.isEmpty()) {
+            return List.of(source);
+        }
+
+        String regex = delimiters.stream()
+                .map(Pattern::quote)   // важно: экранируем спецсимволы
+                .collect(Collectors.joining("|"));
+
+        return Arrays.stream(source.split(regex))
+                .filter(s -> !s.isEmpty())
+                .collect(Collectors.toList());
     }
 }

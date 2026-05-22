@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="UZ"/>
     <property name="sun.boot.library.path" value="/Users/islam/Library/Java/JavaVirtualMachines/openjdk-23.0.1/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/islam/Desktop/java/epam-campus/java-stage-1/stage1-module2-strings-task/target/surefire/surefirebooter-20260522185651747_3.jar /Users/islam/Desktop/java/epam-campus/java-stage-1/stage1-module2-strings-task/target/surefire 2026-05-22T18-56-51_703-jvmRun1 surefire-20260522185651747_1tmp surefire_0-20260522185651747_2tmp"/>
+    <property name="sun.java.command" value="/Users/islam/Desktop/java/epam-campus/java-stage-1/stage1-module2-strings-task/target/surefire/surefirebooter-20260522185821533_3.jar /Users/islam/Desktop/java/epam-campus/java-stage-1/stage1-module2-strings-task/target/surefire 2026-05-22T18-58-21_495-jvmRun1 surefire-20260522185821533_1tmp surefire_0-20260522185821533_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/islam/Desktop/java/epam-campus/java-stage-1/stage1-module2-strings-task/target/test-classes:/Users/islam/Desktop/java/epam-campus/java-stage-1/stage1-module2-strings-task/target/classes:/Users/islam/.m2/repository/junit/junit/4.13/junit-4.13.jar:/Users/islam/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/islam/Desktop/java/epam-campus/java-stage-1/stage1-module2-strings-task/target/surefire/surefirebooter-20260522185651747_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/islam/Desktop/java/epam-campus/java-stage-1/stage1-module2-strings-task/target/surefire/surefirebooter-20260522185821533_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
